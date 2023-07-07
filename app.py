@@ -18,7 +18,7 @@ def git_update():
 
 @app.route('/',methods=['GET'])
 def home_page():
-    message="Update the page"
+    message="Update the page 2 times"
     response={"message":message}
     return jsonify({"response":response}), 200
 
